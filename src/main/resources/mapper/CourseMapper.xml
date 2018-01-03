@@ -4,6 +4,30 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cnsrdb.mapper.CourseMapper">
 
+    <select id="getCourses" resultType="cnsrdb.entity.Course">
+        SELECT * FROM COURSE
+    </select>
 
+    <select id="getCoursesbyname" resultType="cnsrdb.entity.Course">
+        SELECT * FROM COURSE
+        WHERE
+        coursename = #{_parameter}
+    </select>
 
+    <select id="getCoursebylecturer" resultType="cnsrdb.entity.Course">
+        SELECT * FROM COURSE
+        WHERE
+        lecture = #{_parameter}
+    </select>
+
+    <insert id="addCourse">
+        INSERT INTO COURSE(coursenum,coursename,coursetype,studentlevel,lecturer,note)
+        VALUES (#{coursenum},#{coursename},#{coursetype},#{studentlevel},#{lecturer},#{note})
+    </insert>
+
+    <delete id="deleteCourse">
+        DELETE FROM COURSE
+        WHERE
+        id = #{_parameter}
+    </delete>
 </mapper>

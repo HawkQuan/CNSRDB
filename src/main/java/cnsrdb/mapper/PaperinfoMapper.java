@@ -25,11 +25,18 @@ public interface PaperinfoMapper {
      * @param tid
      * @return
      */
-    public Paperinfo getPaperinfo(String tid);
+    public Paperinfo getPaperinfo(Long tid);
 
     /**
-     * 删除专利，因为他们没说按照什么删除，先传递一个对象过来
-     * @param paperinfo
+     * 删除专利，按主键删除
+     * @param id
      */
-    public void deletePaperinfo(Paperinfo paperinfo);
+    public void deletePaperinfo(Long id);
+
+    /**
+     * 通过学号查找该同学专利的数量,删除学生时看看该学生是否有专利，有则不删除
+     * @param tid
+     * @return
+     */
+    public int Count(long tid);
 }

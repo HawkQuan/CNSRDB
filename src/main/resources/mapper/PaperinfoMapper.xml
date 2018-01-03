@@ -21,14 +21,16 @@
         tid = #{_parameter}
     </select>
 
+    <select id="Count" resultType="int">
+        SELECT COUNT (*) from PAPERINFO
+         WHERE
+        tid= #{_parameter}
+    </select>
+
     <delete id="deletePaperinfo">
         DELETE FROM PAPERINFO
         WHERE
-        grade = #{grade}
-        AND
-        tid = #{tid}
-        AND
-        title  =#{title}
+        id = #{_paramter}
     </delete>
 
 </mapper>

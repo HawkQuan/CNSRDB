@@ -27,7 +27,7 @@ public class PaperinfoController {
      * @return  专利那一页
      */
     @RequestMapping(value = "/getPaper",method = RequestMethod.POST)
-    public String getPaperinfo(@RequestParam(value = "tid",required = false) String tid, Model model){
+    public String getPaperinfo(@RequestParam(value = "tid",required = false) Long tid, Model model){
 
         //-----------------调试信息------------------
         System.out.println("按学号查看专利时：");
@@ -55,28 +55,19 @@ public class PaperinfoController {
 
     /**
      * 删除专利，POST
-     * @param grade
-     * @param tid
-     * @param title
+     * @param id
      * @param model
      * @return
      */
     @RequestMapping(value = "deletepaper",method = RequestMethod.POST)
-    public String deletePaperinfo(@RequestParam(value = "grade",required = false)String grade,
-                                  @RequestParam(value = "tid",required = false) Long tid,
-                                  @RequestParam(value = "title",required = false)String title,
+    public String deletePaperinfo(@RequestParam(value = "id",required = false)Long id,
                                   Model model){
         //-----------------调试信息------------------
         System.out.println("删除专利时：");
-        System.out.println(grade);
-        System.out.println(tid);
-        System.out.println(title);
+        System.out.println(id);
         //-------------------------------------
 
-        Paperinfo paperinfo = new Paperinfo(grade,tid,title);
-        paperinfoService.deletePaperinfo(paperinfo);
-
-
+        paperinfoService.deletePaperinfo(id);
         paperinfos = paperinfoService.getPaperinfos();
         model.addAttribute("papers",paperinfos);
         return Constant.Paper;

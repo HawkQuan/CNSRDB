@@ -4,7 +4,6 @@ import cnsrdb.entity.Paperinfo;
 import cnsrdb.mapper.PaperinfoMapper;
 import cnsrdb.service.PaperinfoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.method.P;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,7 +18,7 @@ public class PaperinfoServiceImpl implements PaperinfoService{
         return "success";
     }
 
-    public Paperinfo getPaperinfo(String tid){
+    public Paperinfo getPaperinfo(Long tid){
         Paperinfo paperinfo = null;
         paperinfo = paperinfoMapper.getPaperinfo(tid);
         return paperinfo;
@@ -31,8 +30,13 @@ public class PaperinfoServiceImpl implements PaperinfoService{
         return paperinfos;
     }
 
-    public String deletePaperinfo(Paperinfo paperinfo){
-        paperinfoMapper.deletePaperinfo(paperinfo);
+    public String deletePaperinfo(Long id){
+        paperinfoMapper.deletePaperinfo(id);
         return "success";
+    }
+
+    public int Count(long tid){
+
+        return paperinfoMapper.Count(tid);
     }
 }

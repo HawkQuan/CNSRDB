@@ -8,9 +8,11 @@ public interface PaperinfoService {
 
     public String addPaperinfo(Paperinfo paperinfo);
 
-    public Paperinfo getPaperinfo(String tid);
+    public Paperinfo getPaperinfo(Long tid);
 
     public List<Paperinfo> getPaperinfos();
 
-    public String deletePaperinfo(Paperinfo paperinfo);
+    public String deletePaperinfo(Long id);
+
+    public int Count(long tid);
 }

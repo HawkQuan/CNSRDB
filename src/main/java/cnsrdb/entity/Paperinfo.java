@@ -18,12 +18,27 @@ public class Paperinfo {
   }
 
   /**
-   * 目前数据只有这三项，所以写一个构造函数，方便做数据操作
+   * 从数据库得到时构造函数
+   * @param id
+   * @param title
+   * @param grade
+   * @param tid
+   */
+  public Paperinfo(Long id, String title,Long grade, String tid) {
+    this.id=id;
+    this.title = title;
+    this.grade = grade;
+    this.tid = tid;
+  }
+
+  /**
+   * 新添时的构造函数
    * @param title
    * @param grade
    * @param tid
    */
   public Paperinfo(String title,Long grade, String tid) {
+    this.id=id;
     this.title = title;
     this.grade = grade;
     this.tid = tid;

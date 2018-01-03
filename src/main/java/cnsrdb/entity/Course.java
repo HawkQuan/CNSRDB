@@ -15,14 +15,22 @@ public class Course {
 
   }
 
-  public Course(String coursenum, String coursename, String coursetype, String studentlevel, String coursehours, String lecturer, String venue, String note) {
+  public Course(String coursenum, String coursename, String coursetype, String studentlevel,  String lecturer,String note) {
     this.coursenum = coursenum;
     this.coursename = coursename;
     this.coursetype = coursetype;
     this.studentlevel = studentlevel;
-    this.coursehours = coursehours;
     this.lecturer = lecturer;
-    this.venue = venue;
+    this.note = note;
+  }
+
+  public Course(Long id, String coursenum, String coursename, String coursetype, String studentlevel,  String lecturer,String note) {
+    this.id = id;
+    this.coursenum = coursenum;
+    this.coursename = coursename;
+    this.coursetype = coursetype;
+    this.studentlevel = studentlevel;
+    this.lecturer = lecturer;
     this.note = note;
   }
 
