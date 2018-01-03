@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CNSRDB:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CNSRDB.war">
+      <element id="artifact" artifact-name="CNSRDB:war exploded" />
+    </root>
+  </artifact>
+</component>

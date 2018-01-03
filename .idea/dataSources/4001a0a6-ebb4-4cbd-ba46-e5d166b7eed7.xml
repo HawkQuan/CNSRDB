@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="CNSRDB@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.4">
+    <root id="1">
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="CNSRDB">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="ReportServer">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="ReportServerTempDB">
+      <ObjectId>6</ObjectId>
+    </database>
+    <schema id="9" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-01-02.22:02:06.223</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="10" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="Benny">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="22" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="23" parent="9" name="ACHIEVEMENT">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.207</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.207</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="9" name="ADMISSIONINFO">
+      <ObjectId>277576027</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.253</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.253</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="9" name="ATTENDSHEET">
+      <ObjectId>309576141</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.260</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.260</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="9" name="BOOK">
+      <ObjectId>325576198</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.267</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.267</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="9" name="BORROW">
+      <ObjectId>357576312</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.270</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.463</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="9" name="COPYRIGHT">
+      <ObjectId>219147826</ObjectId>
+      <CreatedTimestamp>2017-11-27.21:56:11.100</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.21:56:11.120</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="9" name="COURSE">
+      <ObjectId>1444200195</ObjectId>
+      <CreatedTimestamp>2017-12-19.11:58:19.193</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.11:58:57.403</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="9" name="DOWNLOAD">
+      <ObjectId>421576540</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.280</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.280</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="9" name="DOWNLOADDATA">
+      <ObjectId>453576654</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.283</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.283</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="9" name="DYNAMICMESSAGE">
+      <ObjectId>485576768</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.307</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.307</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="9" name="INTERCOP">
+      <ObjectId>501576825</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.310</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.19:58:09.043</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="9" name="PAPERINFO">
+      <ObjectId>1655676946</ObjectId>
+      <CreatedTimestamp>2017-12-10.14:51:45.847</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:36:41.920</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="9" name="PATENT">
+      <ObjectId>1575676661</ObjectId>
+      <CreatedTimestamp>2017-12-10.14:48:36.927</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.20:05:03.373</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="9" name="PATENTERROR">
+      <ObjectId>68195293</ObjectId>
+      <CreatedTimestamp>2017-12-13.10:56:08.220</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-13.10:56:08.220</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="9" name="PRDCTION">
+      <ObjectId>597577167</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.317</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.317</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="9" name="RETURN">
+      <ObjectId>661577395</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.320</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.320</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="9" name="SCIENTIFIC">
+      <ObjectId>1518628453</ObjectId>
+      <CreatedTimestamp>2017-11-27.21:24:41.907</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.21:24:41.923</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="9" name="STUDENT">
+      <ObjectId>1895677801</ObjectId>
+      <CreatedTimestamp>2017-12-10.21:34:16.077</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.21:30:42.463</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="9" name="TEACHER">
+      <ObjectId>935674381</ObjectId>
+      <CreatedTimestamp>2017-12-05.16:29:20.477</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.19:56:31.957</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="9" name="TEXTBOOK">
+      <ObjectId>821577965</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.347</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.347</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="9" name="USERMAN">
+      <ObjectId>215671816</ObjectId>
+      <CreatedTimestamp>2017-12-04.20:09:21.883</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:34:16.253</ModifiedTimestamp>
+    </table>
+    <view id="44" parent="9" name="CLASS">
+      <ObjectId>1492200366</ObjectId>
+      <CreatedTimestamp>2017-12-19.12:01:23.080</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.13:38:41.740</ModifiedTimestamp>
+    </view>
+    <view id="45" parent="9" name="XueJJ_STUDENT">
+      <ObjectId>1076198884</ObjectId>
+      <CreatedTimestamp>2017-12-18.21:33:16.727</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.21:33:16.727</ModifiedTimestamp>
+    </view>
+    <routine id="46" parent="9" name="CHANGE_TEACHER">
+      <ObjectId>1604200765</ObjectId>
+      <CreatedTimestamp>2017-12-19.13:54:54.143</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.13:54:54.143</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="47" parent="9" name="Teacher_Patent">
+      <ObjectId>1188199283</ObjectId>
+      <CreatedTimestamp>2017-12-18.22:24:49.953</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.22:24:49.953</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="48" parent="23" name="Name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="23" name="Type">
+      <Position>2</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="50" parent="23" name="Level">
+      <Position>3</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="51" parent="23" name="Year">
+      <Position>4</Position>
+      <DataType>char(4)|0</DataType>
+    </column>
+    <index id="52" parent="23" name="PK_ACHIEVEMENT">
+      <Position>1</Position>
+      <ColNames>Name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="53" parent="23" name="PK_ACHIEVEMENT">
+      <ObjectId>261575970</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.250</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.250</ModifiedTimestamp>
+      <ColNames>Name</ColNames>
+      <UnderlyingIndexName>PK_ACHIEVEMENT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="54" parent="24" name="Num">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="24" name="Type">
+      <Position>2</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="56" parent="24" name="TechnicalRequire">
+      <Position>3</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="57" parent="24" name="WorkTime">
+      <Position>4</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="58" parent="24" name="OtherRequire">
+      <Position>5</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="59" parent="24" name="Contator">
+      <Position>6</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="60" parent="24" name="Phone">
+      <Position>7</Position>
+      <DataType>char(10)|0</DataType>
+    </column>
+    <index id="61" parent="24" name="PK_ADMISSIONINFO">
+      <Position>1</Position>
+      <ColNames>Num</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="24" name="PK_ADMISSIONINFO">
+      <ObjectId>293576084</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.257</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.257</ModifiedTimestamp>
+      <ColNames>Num</ColNames>
+      <UnderlyingIndexName>PK_ADMISSIONINFO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="25" name="SignInTime">
+      <Position>1</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="64" parent="25" name="SignOutTime">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="65" parent="25" name="UserName">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="66" parent="26" name="Num">
+      <Position>1</Position>
+      <DataType>char(7)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="26" name="Title">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="68" parent="26" name="Author">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="69" parent="26" name="PubYear">
+      <Position>4</Position>
+      <DataType>smalldatetime|0</DataType>
+    </column>
+    <column id="70" parent="26" name="Location">
+      <Position>5</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <index id="71" parent="26" name="PK_BOOK">
+      <Position>1</Position>
+      <ColNames>Num</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="26" name="PK_BOOK">
+      <ObjectId>341576255</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.267</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.267</ModifiedTimestamp>
+      <ColNames>Num</ColNames>
+      <UnderlyingIndexName>PK_BOOK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="27" name="BookNum">
+      <Position>1</Position>
+      <DataType>char(7)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="27" name="UserName">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="27" name="BorrowTime">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="76" parent="27" name="PK_BORROW">
+      <Position>1</Position>
+      <ColNames>BorrowTime</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="27" name="PK_BORROW">
+      <ObjectId>373576369</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.273</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.273</ModifiedTimestamp>
+      <ColNames>BorrowTime</ColNames>
+      <UnderlyingIndexName>PK_BORROW</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="78" parent="27" name="FK_BORROW_BORROW">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.463</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.463</ModifiedTimestamp>
+      <ColNames>BorrowTime</ColNames>
+      <RefTableId>357576312</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BORROW</RefTableName>
+      <RefKeyName>PK_BORROW</RefKeyName>
+      <RefColNames>BorrowTime</RefColNames>
+    </foreign-key>
+    <column id="79" parent="28" name="RegisterNum">
+      <Position>1</Position>
+      <DataType>nchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="28" name="ApplicationDate">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="81" parent="28" name="Company">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="82" parent="28" name="CopyRighter">
+      <Position>4</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="83" parent="28" name="InventName">
+      <Position>5</Position>
+      <DataType>ntext|0</DataType>
+    </column>
+    <column id="84" parent="28" name="State">
+      <Position>6</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <index id="85" parent="28" name="PK_COPYRIGHT">
+      <Position>1</Position>
+      <ColNames>RegisterNum</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="28" name="PK_COPYRIGHT">
+      <ObjectId>235147883</ObjectId>
+      <CreatedTimestamp>2017-11-27.21:56:11.113</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.21:56:11.113</ModifiedTimestamp>
+      <ColNames>RegisterNum</ColNames>
+      <UnderlyingIndexName>PK_COPYRIGHT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="87" parent="29" name="ID">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="88" parent="29" name="CourseNum">
+      <Position>2</Position>
+      <DataType>nchar(10)|0</DataType>
+    </column>
+    <column id="89" parent="29" name="CourseName">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="90" parent="29" name="CourseType">
+      <Position>4</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="91" parent="29" name="StudentLevel">
+      <Position>5</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="92" parent="29" name="CourseHours">
+      <Position>6</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="93" parent="29" name="Lecturer">
+      <Position>7</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="94" parent="29" name="Venue">
+      <Position>8</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="95" parent="29" name="Note">
+      <Position>9</Position>
+      <DataType>ntext|0</DataType>
+    </column>
+    <index id="96" parent="29" name="PK_COURSE_1">
+      <Position>1</Position>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="97" parent="29" name="PK_COURSE_1">
+      <ObjectId>1460200252</ObjectId>
+      <CreatedTimestamp>2017-12-19.11:58:19.220</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.11:58:19.220</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK_COURSE_1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="98" parent="30" name="Num">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="30" name="UserName">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="30" name="FileName">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="30" name="DownloadLink">
+      <Position>4</Position>
+      <DataType>nvarchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="102" parent="30" name="PK_DOWNLOAD">
+      <Position>1</Position>
+      <ColNames>Num</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="103" parent="30" name="PK_DOWNLOAD">
+      <ObjectId>437576597</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.280</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.280</ModifiedTimestamp>
+      <ColNames>Num</ColNames>
+      <UnderlyingIndexName>PK_DOWNLOAD</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="104" parent="31" name="FileName">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="31" name="Link">
+      <Position>2</Position>
+      <DataType>nvarchar(200)|0</DataType>
+    </column>
+    <column id="106" parent="31" name="Type">
+      <Position>3</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <index id="107" parent="31" name="PK_DOWNLOADDATA_1">
+      <Position>1</Position>
+      <ColNames>FileName</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="108" parent="31" name="PK_DOWNLOADDATA_1">
+      <ObjectId>469576711</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.283</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.283</ModifiedTimestamp>
+      <ColNames>FileName</ColNames>
+      <UnderlyingIndexName>PK_DOWNLOADDATA_1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="109" parent="32" name="Num">
+      <Position>1</Position>
+      <DataType>char(8)|0</DataType>
+    </column>
+    <column id="110" parent="32" name="PubTime">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="111" parent="32" name="Content">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="112" parent="32" name="Column">
+      <Position>4</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="113" parent="32" name="Picture">
+      <Position>5</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="114" parent="32" name="Media">
+      <Position>6</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="115" parent="33" name="ProjectName">
+      <Position>1</Position>
+      <DataType>nvarchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="33" name="Nation">
+      <Position>2</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <column id="117" parent="33" name="Partner">
+      <Position>3</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <index id="118" parent="33" name="PK_INTERCOP">
+      <Position>1</Position>
+      <ColNames>ProjectName</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="119" parent="33" name="PK_INTERCOP">
+      <ObjectId>517576882</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.310</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.310</ModifiedTimestamp>
+      <ColNames>ProjectName</ColNames>
+      <UnderlyingIndexName>PK_INTERCOP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="120" parent="34" name="ID">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="121" parent="34" name="Title">
+      <Position>2</Position>
+      <DataType>nvarchar(500)|0</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="122" parent="34" name="Author">
+      <Position>3</Position>
+      <DataType>nvarchar(200)|0</DataType>
+    </column>
+    <column id="123" parent="34" name="Grade">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="124" parent="34" name="TID">
+      <Position>5</Position>
+      <DataType>numeric(10)|0</DataType>
+    </column>
+    <column id="125" parent="34" name="Type">
+      <Position>6</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="126" parent="34" name="OccasName">
+      <Position>7</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="127" parent="34" name="OccasTime">
+      <Position>8</Position>
+      <DataType>smalldatetime|0</DataType>
+    </column>
+    <column id="128" parent="34" name="PubYear">
+      <Position>9</Position>
+      <DataType>char(4)|0</DataType>
+    </column>
+    <index id="129" parent="34" name="PK_PAPERINFO">
+      <Position>1</Position>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="34" name="PK_PAPERINFO">
+      <ObjectId>1687677060</ObjectId>
+      <CreatedTimestamp>2017-12-10.14:51:45.860</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.14:51:45.860</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK_PAPERINFO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="131" parent="35" name="ID">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="132" parent="35" name="Num">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="35" name="Applicant">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="134" parent="35" name="InventionName">
+      <Position>4</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="135" parent="35" name="Author">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="35" name="State">
+      <Position>6</Position>
+      <DataType>nchar(10)|0</DataType>
+    </column>
+    <column id="137" parent="35" name="Applydate">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="138" parent="35" name="Opendate">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <index id="139" parent="35" name="PK_PATENT_1">
+      <Position>1</Position>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="140" parent="35" name="PK_PATENT_1">
+      <ObjectId>1591676718</ObjectId>
+      <CreatedTimestamp>2017-12-10.14:48:37.410</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.14:48:37.410</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK_PATENT_1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="141" parent="35" name="INSERT_Applydate_PATENT">
+      <ObjectId>388196433</ObjectId>
+      <CreatedTimestamp>2017-12-18.16:27:10.853</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.16:27:10.853</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>instead-of</Turn>
+    </trigger>
+    <trigger id="142" parent="35" name="UPDATE_OPENDATE_PATENT">
+      <ObjectId>708197573</ObjectId>
+      <CreatedTimestamp>2017-12-18.19:57:45.050</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.20:05:03.373</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="143" parent="36" name="Num">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="36" name="Applicant">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="36" name="InventtionName">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="36" name="Author">
+      <Position>4</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="147" parent="36" name="State">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="148" parent="36" name="Applydate">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="149" parent="36" name="Opendate">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="150" parent="36" name="WhenInserted">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="151" parent="37" name="Name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="37" name="Type">
+      <Position>2</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="153" parent="37" name="Level">
+      <Position>3</Position>
+      <DataType>tinyint|0</DataType>
+    </column>
+    <column id="154" parent="37" name="Year">
+      <Position>4</Position>
+      <DataType>char(4)|0</DataType>
+    </column>
+    <index id="155" parent="37" name="PK_PRDCTION">
+      <Position>1</Position>
+      <ColNames>Name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="156" parent="37" name="PK_PRDCTION">
+      <ObjectId>613577224</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.317</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.317</ModifiedTimestamp>
+      <ColNames>Name</ColNames>
+      <UnderlyingIndexName>PK_PRDCTION</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="157" parent="38" name="BookNum">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="158" parent="38" name="UserName">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="159" parent="38" name="ReturnTime">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="160" parent="38" name="PK_RETURN">
+      <Position>1</Position>
+      <ColNames>ReturnTime</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="161" parent="38" name="PK_RETURN">
+      <ObjectId>677577452</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.320</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.320</ModifiedTimestamp>
+      <ColNames>ReturnTime</ColNames>
+      <UnderlyingIndexName>PK_RETURN</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="162" parent="39" name="Num">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="39" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(30)|0</DataType>
+    </column>
+    <column id="164" parent="39" name="Type">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <index id="165" parent="39" name="PK_SCIENTIFIC">
+      <Position>1</Position>
+      <ColNames>Num</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="166" parent="39" name="PK_SCIENTIFIC">
+      <ObjectId>1534628510</ObjectId>
+      <CreatedTimestamp>2017-11-27.21:24:41.917</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.21:24:41.917</ModifiedTimestamp>
+      <ColNames>Num</ColNames>
+      <UnderlyingIndexName>PK_SCIENTIFIC</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="167" parent="40" name="SID">
+      <Position>1</Position>
+      <DataType>numeric(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="40" name="ChName">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="40" name="EnName">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="170" parent="40" name="Sex">
+      <Position>5</Position>
+      <DataType>nvarchar(2)|0</DataType>
+      <DefaultExpression>N&apos;男&apos;</DefaultExpression>
+    </column>
+    <column id="171" parent="40" name="Type">
+      <Position>6</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="172" parent="40" name="Nation">
+      <Position>7</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <column id="173" parent="40" name="Grade">
+      <Position>8</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="40" name="Tutor">
+      <Position>9</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="175" parent="40" name="AssociateTutor">
+      <Position>10</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="176" parent="40" name="EnterDate">
+      <Position>11</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="177" parent="40" name="GraduationDate">
+      <Position>12</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="178" parent="40" name="Birthday">
+      <Position>13</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="179" parent="40" name="Mobile">
+      <Position>14</Position>
+      <DataType>char(11)|0</DataType>
+    </column>
+    <column id="180" parent="40" name="WorkUnit">
+      <Position>15</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="181" parent="40" name="Note">
+      <Position>16</Position>
+      <DataType>nvarchar(200)|0</DataType>
+    </column>
+    <column id="182" parent="40" name="Picture">
+      <Position>17</Position>
+      <DataType>image|0</DataType>
+    </column>
+    <index id="183" parent="40" name="PK_STUDENT">
+      <Position>1</Position>
+      <ColNames>SID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="40" name="PK_STUDENT">
+      <ObjectId>1927677915</ObjectId>
+      <CreatedTimestamp>2017-12-10.21:34:16.157</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:34:16.157</ModifiedTimestamp>
+      <ColNames>SID</ColNames>
+      <UnderlyingIndexName>PK_STUDENT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="185" parent="40" name="CK_STUDENT_Sex">
+      <ObjectId>1943677972</ObjectId>
+      <CreatedTimestamp>2017-12-10.21:34:16.160</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:34:16.160</ModifiedTimestamp>
+      <ColNames>Sex</ColNames>
+      <Predicate>[Sex]=&apos;男&apos; OR [Sex]=&apos;女&apos;</Predicate>
+    </check>
+    <check id="186" parent="40" name="CK_STUDENT_Type">
+      <ObjectId>1959678029</ObjectId>
+      <CreatedTimestamp>2017-12-10.21:34:16.163</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:34:16.163</ModifiedTimestamp>
+      <ColNames>Type</ColNames>
+      <Predicate>[Type]=&apos;学术硕士&apos; OR [Type]=&apos;专业硕士&apos; OR [Type]=&apos;学术博士&apos; OR [Type]=&apos;专业博士&apos; OR [Type]=&apos;本科&apos;</Predicate>
+    </check>
+    <trigger id="187" parent="40" name="DELETE_STUDENT">
+      <ObjectId>1012198656</ObjectId>
+      <CreatedTimestamp>2017-12-18.20:37:30.230</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.20:37:30.230</ModifiedTimestamp>
+      <Events>D</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="188" parent="41" name="ID">
+      <Position>1</Position>
+      <DataType>numeric(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="189" parent="41" name="JobNum">
+      <Position>2</Position>
+      <DataType>numeric(10)|0</DataType>
+    </column>
+    <column id="190" parent="41" name="Name">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="191" parent="41" name="FirstName">
+      <Position>4</Position>
+      <DataType>char(30)|0</DataType>
+    </column>
+    <column id="192" parent="41" name="LastName">
+      <Position>5</Position>
+      <DataType>char(30)|0</DataType>
+    </column>
+    <column id="193" parent="41" name="Sex">
+      <Position>6</Position>
+      <DataType>nvarchar(2)|0</DataType>
+    </column>
+    <column id="194" parent="41" name="Type">
+      <Position>7</Position>
+      <DataType>nvarchar(5)|0</DataType>
+      <DefaultExpression>N&apos;全职&apos;</DefaultExpression>
+    </column>
+    <column id="195" parent="41" name="Nation">
+      <Position>8</Position>
+      <DataType>nvarchar(40)|0</DataType>
+      <DefaultExpression>N&apos;中国&apos;</DefaultExpression>
+    </column>
+    <column id="196" parent="41" name="Dept">
+      <Position>9</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="197" parent="41" name="AreaCode">
+      <Position>10</Position>
+      <DataType>numeric(4)|0</DataType>
+    </column>
+    <column id="198" parent="41" name="OfficeNum">
+      <Position>11</Position>
+      <DataType>numeric(8)|0</DataType>
+    </column>
+    <column id="199" parent="41" name="Mobile">
+      <Position>12</Position>
+      <DataType>numeric(11)|0</DataType>
+    </column>
+    <column id="200" parent="41" name="Birthday">
+      <Position>13</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="201" parent="41" name="Qualification">
+      <Position>14</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="202" parent="41" name="Title">
+      <Position>15</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="203" parent="41" name="Duty">
+      <Position>16</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="204" parent="41" name="Email">
+      <Position>17</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="205" parent="41" name="Picture">
+      <Position>18</Position>
+      <DataType>image|0</DataType>
+    </column>
+    <column id="206" parent="41" name="SocialPosition">
+      <Position>19</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="207" parent="41" name="AdministrativeRank">
+      <Position>20</Position>
+      <DataType>nvarchar(255)|0</DataType>
+    </column>
+    <index id="208" parent="41" name="PK_TEACHER">
+      <Position>2</Position>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="209" parent="41" name="PK_TEACHER">
+      <ObjectId>967674495</ObjectId>
+      <CreatedTimestamp>2017-12-05.16:29:20.810</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-05.16:29:20.810</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK_TEACHER</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="210" parent="41" name="CK_TEACHER_Sex">
+      <ObjectId>999674609</ObjectId>
+      <CreatedTimestamp>2017-12-05.16:29:20.820</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-05.16:29:20.820</ModifiedTimestamp>
+      <ColNames>Sex</ColNames>
+      <Predicate>[Sex]=&apos;男&apos; OR [Sex]=&apos;女&apos; OR [Sex]=&apos;&apos;</Predicate>
+    </check>
+    <check id="211" parent="41" name="CK_TEACHER_Type">
+      <ObjectId>1319675749</ObjectId>
+      <CreatedTimestamp>2017-12-08.23:26:13.647</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.23:26:13.647</ModifiedTimestamp>
+      <ColNames>Type</ColNames>
+      <Predicate>[Type]=&apos;专职&apos; OR [Type]=&apos;兼职&apos; OR [Type]=&apos;全职&apos;</Predicate>
+    </check>
+    <column id="212" parent="42" name="Num">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="42" name="PubYear">
+      <Position>2</Position>
+      <DataType>char(4)|0</DataType>
+    </column>
+    <column id="214" parent="42" name="Title">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="215" parent="42" name="Award">
+      <Position>4</Position>
+      <DataType>ntext|0</DataType>
+    </column>
+    <index id="216" parent="42" name="PK_TEXTBOOK">
+      <Position>1</Position>
+      <ColNames>Num</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="217" parent="42" name="PK_TEXTBOOK">
+      <ObjectId>837578022</ObjectId>
+      <CreatedTimestamp>2017-11-15.16:01:13.350</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.16:01:13.350</ModifiedTimestamp>
+      <ColNames>Num</ColNames>
+      <UnderlyingIndexName>PK_TEXTBOOK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="218" parent="43" name="UserName">
+      <Position>1</Position>
+      <DataType>nchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="219" parent="43" name="Password">
+      <Position>2</Position>
+      <DataType>nchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="220" parent="43" name="Credit">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="221" parent="43" name="TID">
+      <Position>4</Position>
+      <DataType>numeric(10)|0</DataType>
+    </column>
+    <column id="222" parent="43" name="SID">
+      <Position>5</Position>
+      <DataType>numeric(10)|0</DataType>
+    </column>
+    <index id="223" parent="43" name="PK_USERMAN">
+      <Position>1</Position>
+      <ColNames>UserName</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="224" parent="43" name="PK_USERMAN">
+      <ObjectId>247671930</ObjectId>
+      <CreatedTimestamp>2017-12-04.20:09:22.010</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.20:09:22.010</ModifiedTimestamp>
+      <ColNames>UserName</ColNames>
+      <UnderlyingIndexName>PK_USERMAN</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="225" parent="43" name="FK_USERMAN_TID">
+      <ObjectId>1047674780</ObjectId>
+      <CreatedTimestamp>2017-12-05.16:29:21.080</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-05.16:29:21.080</ModifiedTimestamp>
+      <ColNames>TID</ColNames>
+      <RefTableId>935674381</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>TEACHER</RefTableName>
+      <RefKeyName>PK_TEACHER</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="226" parent="43" name="FK_USERMAN_SID">
+      <ObjectId>1975678086</ObjectId>
+      <CreatedTimestamp>2017-12-10.21:34:16.250</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-10.21:34:16.250</ModifiedTimestamp>
+      <ColNames>SID</ColNames>
+      <RefTableId>1895677801</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>STUDENT</RefTableName>
+      <RefKeyName>PK_STUDENT</RefKeyName>
+      <RefColNames>SID</RefColNames>
+    </foreign-key>
+    <column id="227" parent="44" name="CourseName">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="228" parent="44" name="CourseType">
+      <Position>2</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="229" parent="44" name="StudentLevel">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="230" parent="44" name="Name">
+      <Position>4</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="44" name="Title">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+    </column>
+    <column id="232" parent="44" name="Qualification">
+      <Position>6</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <trigger id="233" parent="44" name="INSERT_CLASST_VIEW">
+      <ObjectId>1508200423</ObjectId>
+      <CreatedTimestamp>2017-12-19.12:11:04.970</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.12:11:04.970</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>instead-of</Turn>
+    </trigger>
+    <trigger id="234" parent="44" name="UPDATE_CLASST_VIEW">
+      <ObjectId>1556200594</ObjectId>
+      <CreatedTimestamp>2017-12-19.13:34:08.800</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.13:34:08.800</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>instead-of</Turn>
+    </trigger>
+    <trigger id="235" parent="44" name="DELETE_CLASST_VIEW">
+      <ObjectId>1572200651</ObjectId>
+      <CreatedTimestamp>2017-12-19.13:38:41.740</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.13:38:41.740</ModifiedTimestamp>
+      <Events>D</Events>
+      <Turn>instead-of</Turn>
+    </trigger>
+    <column id="236" parent="45" name="SID">
+      <Position>1</Position>
+      <DataType>numeric(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="237" parent="45" name="ChName">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="238" parent="45" name="EnName">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="239" parent="45" name="Sex">
+      <Position>4</Position>
+      <DataType>nvarchar(2)|0</DataType>
+    </column>
+    <column id="240" parent="45" name="Type">
+      <Position>5</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="241" parent="45" name="Nation">
+      <Position>6</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <column id="242" parent="45" name="Grade">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="243" parent="45" name="Tutor">
+      <Position>8</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="244" parent="45" name="AssociateTutor">
+      <Position>9</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="245" parent="45" name="EnterDate">
+      <Position>10</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="246" parent="45" name="GraduationDate">
+      <Position>11</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="247" parent="45" name="Birthday">
+      <Position>12</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <column id="248" parent="45" name="Mobile">
+      <Position>13</Position>
+      <DataType>char(11)|0</DataType>
+    </column>
+    <column id="249" parent="45" name="WorkUnit">
+      <Position>14</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="250" parent="45" name="Note">
+      <Position>15</Position>
+      <DataType>nvarchar(200)|0</DataType>
+    </column>
+    <column id="251" parent="45" name="Picture">
+      <Position>16</Position>
+      <DataType>image|0</DataType>
+    </column>
+    <argument id="252" parent="46" name="@teacher1">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="253" parent="46" name="@teacher2">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="254" parent="47" name="@ChName">
+      <DataType>sysname|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

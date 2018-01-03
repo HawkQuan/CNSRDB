@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cnsrdb.mapper.PaperinfoMapper">
+
+
+    <insert id="addPaperinfo">
+        INSERT INTO PAPERINFO(grade,tid,title)   <!--      这里的参数要和数据库一致      -->
+        VALUES
+        (#{grade},#{tid},#{title})               <!--      这里的参数要和实体一致     -->
+    </insert>
+    <!--  这个地方需要指明返回的类型是什么   -->
+    <select id="getPaperinfos" resultType="cnsrdb.entity.Paperinfo">
+        SELECT * FROM PAPERINFO
+    </select>
+
+    <select id="getPaperinfo" resultType="cnsrdb.entity.Paperinfo" parameterType="java.lang.String">
+        SELECT * FROM PAPERINFO
+        WHERE
+        tid = #{_parameter}
+    </select>
+
+    <delete id="deletePaperinfo">
+        DELETE FROM PAPERINFO
+        WHERE
+        grade = #{grade}
+        AND
+        tid = #{tid}
+        AND
+        title  =#{title}
+    </delete>
+
+</mapper>
